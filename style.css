@@ -112,3 +112,8 @@ footer img {
     height: 3rem;
     cursor: pointer;
 }
+
+footer img:hover {
+    transform: translateX(.5rem) translateY(-1rem);
+    transition: .5s;
+}
